@@ -10,12 +10,3 @@ def show_image(img):
     cv2.imshow('', img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-
-
-loc = "D:\Another\Image\image_\image_1.jpg"
-img = cv2.imread(loc)
-print(img)
-cv2.imshow('',img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-# img = load_images(loc)
